@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+body {
+  margin: 0 auto;
+  width: max-content;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  border-radius: 15px;
+}
+
+.cover {
+  background: url(./assets/thumbnail-img@2x.svg) no-repeat;
+  width: 169px;
+  height: 169px;
+}
+.wrapper .info {
+  width: 306px;
+  padding: 20px 40px;
+}
+.wrapper .info .title .artist h1 {
+  color: #fff;
+  font: 700 18px Inter sans-serif;
+}
+.wrapper .info .title .artist p {
+  color: #fff;
+  font: 400 18px Inter sans-serif;
+}
+
+.wrapper .info .title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.wrapper .info .title .img {
+  background: url(./assets/spotifyBtn.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.wrapper .progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.wrapper .progress-bar div {
+  width: 257px;
+  height: 3px;
+  background-color: #fff;
+}
+.wrapper .progress-bar p{
+    color: #C1C1C1;
+    font: 400 12px Inter;
+}
+
+.wrapper .navigation {
+    
+}
